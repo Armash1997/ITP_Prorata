@@ -17,7 +17,7 @@ import java.sql.SQLException;
 import Dao.pack.UserDao;
 
 /**
- * Servlet implementation class AdminLogin
+ * Servlet implementation class AdminLogin   auther @ Armash Ahamed
  */
 @WebServlet("/AdminLogin")
 public class AdminLogin extends HttpServlet {
