@@ -17,7 +17,7 @@ import model.pack.User;
 
 
 /**
- * Servlet implementation class UpdateUserServlet
+ * Servlet implementation class UpdateUserServlet  @auther Armash Ahamed
  */
 @WebServlet("/UpdateUserServlet")
 public class UpdateUserServlet extends HttpServlet {
