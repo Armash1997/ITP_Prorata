@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 
 /**
- * Servlet implementation class DeleteUserServlet
+ * Servlet implementation class DeleteUserServlet  @auther Armash Ahamed
  */
 @jakarta.servlet.annotation.WebServlet("/DeleteUserServlet")
 public class DeleteUserServlet extends HttpServlet {
