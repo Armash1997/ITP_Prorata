@@ -1,10 +1,6 @@
 package controller.pack;
-
 import java.io.IOException;
-
 import java.sql.SQLException;
-
-
 import Dao.pack.UserDao;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -13,9 +9,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import model.pack.User;
 
+
 /**
  * Servlet implementation class AddUserServlet
+                                       @ auther Armash Ahamed
  */
+
 @WebServlet("/AddUserServlet")
 public class AddUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
