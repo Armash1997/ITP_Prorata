@@ -1,0 +1,124 @@
+
+@charset "UTF-8";
+
+
+body{
+
+    background-image:url('images/wave.png');
+	background-position: center;
+	margin: 0;
+	font-family:Lucida Console;
+  	position: relative;
+	height: 500px;
+	background-size:cover;
+	
+}
+
+#form {
+	
+  width: 300px;
+  margin: 10vh 20vh 0 auto; 
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  font-size: 15px;
+  
+}
+
+h1 {
+	
+  color: rgb(41,57,194);
+  text-align: left;
+  font-size: 18px;
+  font-family:Courier New;
+}
+h4{
+	font-family:Courier New;
+	font-size: 16px;
+}
+
+
+#form button{
+	
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(41,57,194);
+  width: 98%;
+  color: white;
+  border:0px;
+  border-radius: 40px;
+  
+}
+
+button:hover{
+	  opacity: 0.6;
+	 
+}
+
+.input-control{
+  display: flex;
+  flex-direction: column;
+  font-family:Courier New;
+}
+
+.input-control input{
+  border: solid #f0f0f0;
+  border-radius: 10px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 95%;
+  margin-left:-10px;
+
+  
+}
+.input-control input:focus{
+  outline: 10;
+  outline-color:blue;
+}
+
+
+input{
+	margin-top:5px;
+}
+
+
+.input-control {
+  
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 95%;
+  font-weight:bold;
+  font-style:normal;
+}
+
+
+img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin: 0vh 20vh 0 auto; 
+}
+
+ /*Clearfix (clear floats) */
+ 
+ id::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+img img{
+	width: 400px;
+	padding:10px;
+}
+
+.banner h2{
+	font-size: 15px;
+	color: #400040;
+	font-family:Courier New;
+	text-align: left;
+	margin-left:10px;
+	padding:0;
+}
